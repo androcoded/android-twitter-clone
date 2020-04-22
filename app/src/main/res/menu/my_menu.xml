@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/mntLogout"
+        android:orderInCategory="1"
+        android:title="Logout"
+        app:showAsAction="always"
+        />
+    <item
+        android:id="@+id/mntSend"
+        android:icon="@drawable/menu_item"
+        android:orderInCategory="2"
+        android:title="Send"
+        app:showAsAction="always" />
+
+</menu>
